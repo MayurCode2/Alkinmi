@@ -1,0 +1,11 @@
+.main-section{
+margin: 5rem 10rem 16rem 10rem;
+}
+.heading{
+    font-size: 7.5rem;
+}
+@media only screen and (max-width: 600px) {
+	.main-section{
+        margin: 0;
+    }
+}
