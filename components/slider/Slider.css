@@ -1,0 +1,33 @@
+.Slider_sliderContainer__O0k5v {
+    width: 100%;
+    height: 35px;
+    overflow: hidden;
+    background: linear-gradient(90deg,violet,green)
+}
+
+.Slider_marquee__YzTFs {
+    display: inline-block;
+    white-space: nowrap;
+    animation: Slider_marquee__YzTFs 450s linear infinite;
+    position: relative
+}
+
+.Slider_backgroundSlider__UbZmS {
+    position: absolute;
+    width: 100vw
+}
+
+@keyframes Slider_marquee__YzTFs {
+    to {
+        transform: translateX(50%)
+    }
+
+    0% {
+        transform: translateX(-30%)
+    }
+}
+
+.Slider_sliderText__SP4_E {
+    margin: 0;
+    padding: 0
+}
